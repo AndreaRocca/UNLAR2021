@@ -1,3 +1,4 @@
+*** PROGRAMACIÓN SENSOR Y ACTUADOR
 ```
 Detección del color
 ```
@@ -7,3 +8,13 @@ Como ya se dijo en el documento principal, la detección del color es muy sensib
 Subida del código a Arduino
 ```
 Para subir el código del IDE a la placa, verificar no tener conectado nada en el pin 0 (Rx) porque si no la placa da error.
+
+*** PROGRAMACIÓN DE ENVÍO DE DATOS VIA WIFI
+```
+Subida del código a ESP8266
+```
+Ver que no haya nada conectado a pin 0, por que si no la placa da timeout.
+```
+Grabación en planilla GSheet
+```
+Hay cierto delay entre las comunicaciones. Jugar con la velocidad del puerto serial y el delay del print() y del read() del serial
